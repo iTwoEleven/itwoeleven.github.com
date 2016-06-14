@@ -26,18 +26,18 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+#facebook: myfacebook
 twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
+#youtube: myyoutube
+#spotify: myspotify
 github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+#medium: medium
+#vimeo: myvimeo
+email: leohanmail@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -52,7 +52,7 @@ width: normal
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
@@ -87,6 +87,6 @@ gems:
   - jekyll-paginate
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://github.com/itwoeleven
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]
