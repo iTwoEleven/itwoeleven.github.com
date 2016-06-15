@@ -23,18 +23,18 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false #mydisqus
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: mytwitter
+twitter: https://twitter.com/iTwoEleven
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 #youtube: myyoutube
 #spotify: myspotify
-github: mygithub
+github: https://github.com/itwoeleven
 #medium: medium
 #vimeo: myvimeo
 email: leohanmail@gmail.com
