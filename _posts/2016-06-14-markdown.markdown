@@ -1,0 +1,21 @@
+---
+title: "Markdown"
+layout: post
+date: 2016-06-14 22:44
+tag:
+- markdown
+- elements
+blog: true
+star: true
+---
+
+{% highlight Swift %}
+    let fileManager = NSFileManager.defaultManager()
+    var error: NSError?
+    fileManager.copyItemAtPath(srcPath, toPath: dstPath, error: &error)
+    if error != nil {
+        // 发生了错误
+    } else {
+        // 复制成功
+    }
+{% endhighlight %}
