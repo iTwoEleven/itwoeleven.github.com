@@ -42,14 +42,14 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 在需要加入微信分享的地方加入
 {% highlight objc %}
 UIImage  *shareMomentImage = [UIImage imageNamed:@"wechat_moments"];
-  UIImage *shareSessionImage = [UIImage imageNamed:@"wechat_session"];
-  NSArray *activityItems = @[shareMomentImage, shareSessionImage];
-  WeChatMomentsActivity *momentsActivity = [[WeChatMomentsActivity alloc] init];
-  WeChatSessionActivity *sessionActivity = [[WeChatSessionActivity alloc] init];
-  NSArray *activities = @[momentsActivity, sessionActivity];
-  UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:activityItems
- applicationActivities:activities];
-  [self presentViewController:activityView animated:YES completion:nil];
+UIImage *shareSessionImage = [UIImage imageNamed:@"wechat_session"];
+NSArray *activityItems = @[shareMomentImage, shareSessionImage];
+WeChatMomentsActivity *momentsActivity = [[WeChatMomentsActivity alloc] init];
+WeChatSessionActivity *sessionActivity = [[WeChatSessionActivity alloc] init];
+NSArray *activities = @[momentsActivity, sessionActivity];
+UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:activityItems
+applicationActivities:activities];
+[self presentViewController:activityView animated:YES completion:nil];
 {% endhighlight %}
 
 [1]:	https://itunes.apple.com/us/app/ti-ge-qiu/id980151813?l=zh&ls=1&mt=8

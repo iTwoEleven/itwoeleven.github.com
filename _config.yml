@@ -27,14 +27,14 @@ disqus: true #mydisqus
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: https://twitter.com/iTwoEleven
+twitter: iTwoEleven
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 #youtube: myyoutube
 #spotify: myspotify
-github: https://github.com/itwoeleven
+github: itwoeleven
 #medium: medium
 #vimeo: myvimeo
 email: leohanmail@gmail.com
